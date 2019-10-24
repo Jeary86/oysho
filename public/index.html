@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OYSHO_SPORT 练就瑜伽力</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="static/lib/viewport-units-buggyfill.min.js"></script>
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?dc3cba2cc87fa882b55d7866154334ae";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script type="text/javascript" src="static/lib/swiper.min.js"></script>
+<script type="text/javascript" src="static/lib/createjs.min.js"></script>
+<script type="text/javascript" src="static/lib/jweixin-1.0.0.js"></script>
+<script>
+    window.onload = function() {
+        window.viewportUnitsBuggyfill.init({
+            hacks: window.viewportUnitsBuggyfillHacks
+        });
+
+        window.alert = function(name){
+            var iframe = document.createElement("IFRAME");
+            iframe.style.display="none";
+            iframe.setAttribute("src", 'data:text/plain,');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+    }
+</script>
+</body>
+</html>

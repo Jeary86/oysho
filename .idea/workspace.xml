@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97446901-f8da-4a1a-a516-41cfecd08f28" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/dist/" />
+    <list default="true" id="5abaeeaf-9d78-4e63-8c4a-36f0c98a3e73" name="默认更改列表" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,10 +121,16 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
+<<<<<<< HEAD
     <option name="width" value="2560" />
     <option name="height" value="1361" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+    <option name="width" value="1920" />
+    <option name="height" value="1123" />
+  </component>
+>>>>>>> 7f65f4e163f2ee7f2753b4d072333b8832ff3d23
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
